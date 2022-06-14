@@ -1,0 +1,16 @@
+.dialogTitle{
+    border-bottom: 1px solid bottom;
+    margin-bottom: 1em;
+}
+
+.dialogContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.dialogButtonText {
+    margin-left: 10px;
+    color: black;
+    text-transform: capitalize;
+}

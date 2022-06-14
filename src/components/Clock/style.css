@@ -1,0 +1,33 @@
+.box-clock {
+	padding: 1rem;
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+span.title-clock {
+	font-weight: 700;
+	font-size: 1.4em;
+}
+
+.content-clock {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+}
+
+.content-clock .clock {
+	font-size: 4.2em;
+	font-weight: 700;
+}
+
+.content-clock .date {
+	font-size: 1.2em;
+	font-weight: 600;
+}

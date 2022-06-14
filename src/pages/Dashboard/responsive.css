@@ -1,0 +1,175 @@
+/* @media screen and (max-width: 1372px) {
+	.container-cards-dash {
+		flex-wrap: wrap;
+	}
+
+	.box-card.status {
+		width: 26%;
+	}
+	.box-card.execution {
+		width: 24%;
+	}
+	.box-card.alarme {
+		width: 24%;
+	}
+	.box-card.clock {
+		flex: 1;
+	}
+} */
+
+@media screen and (max-width: 1372px) {
+	.container-cards-dash {
+		justify-content: flex-start;
+		flex-wrap: wrap;
+	}
+
+	.box-card.status {
+		width: 30%;
+	}
+	.box-card.execution {
+		width: 30%;
+	}
+	.box-card.alarme {
+		width: auto;
+		flex: 1;
+	}
+	.box-card.clock {
+		height: 377px;
+		width: auto;
+		flex: 1;
+	}
+
+	.content-clock .clock {
+		font-size: 4.6em;
+		font-weight: 700;
+	}
+	.content-clock .date {
+		font-size: 1.8em;
+		font-weight: 500;
+	}
+}
+
+@media screen and (max-width: 1063px) {
+	.content-clock .clock {
+		font-size: 3.6em;
+		font-weight: 700;
+	}
+}
+
+@media screen and (max-width: 952px) {
+	.box-card.status {
+		width: 55%;
+	}
+	.box-card.execution {
+		width: auto;
+		flex: 1;
+	}
+	.box-card.alarme {
+		width: 40%;
+		flex: none;
+	}
+	.box-card.clock {
+		height: 230px;
+		width: auto;
+		flex: 1;
+	}
+	.box-chart.feedChart-cards {
+		display: none;
+	}
+	.box-chart.feedChart {
+		display: flex;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	section.container-charts-dash .two-charts {
+		flex-wrap: wrap;
+	}
+}
+
+@media screen and (max-width: 670px) {
+	.box-card.status {
+		width: 100%;
+	}
+
+	.space-alarme-check span.title-alarme {
+		font-size: 1.2em;
+	}
+
+	.space-alarme-check .box-switch-alarme {
+		width: 60px;
+		height: 25px;
+	}
+
+	.box-alarmeIcon-time img {
+		width: 40%;
+	}
+
+	.box-alarmeIcon-time span.time-alarme {
+		font-weight: 600;
+		font-size: 1.1em;
+	}
+}
+
+@media screen and (max-width: 512px) {
+	.box-card.alarme {
+		width: 100%;
+	}
+
+	.space-alarme-check span.title-alarme {
+		font-weight: 700;
+		font-size: 1.4em;
+	}
+
+	.space-alarme-check .box-switch-alarme {
+		width: 70px;
+		height: 30px;
+	}
+
+	.box-alarmeIcon-time img {
+		width: 55%;
+	}
+	.box-alarmeIcon-time span.time-alarme {
+		font-weight: 600;
+		font-size: 1.3em;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.box-switch-lig-off {
+		width: 173px;
+		height: 72px;
+	}
+
+	.space-alarme-check span.title-alarme {
+		font-size: 1.4em;
+	}
+	.space-alarme-check .box-switch-alarme {
+		width: 70px;
+		height: 30px;
+	}
+	.box-alarmeIcon-time img {
+		width: 45%;
+	}
+	.box-alarmeIcon-time span.time-alarme {
+		font-weight: 600;
+		font-size: 1.15em;
+	}
+
+	.box-clock {
+		padding: 0.5em;
+	}
+	.content-clock .clock {
+		font-size: 3.2em;
+		font-weight: 700;
+	}
+}
+
+@media screen and (min-width: 1373px) {
+	.box-chart.feedChart-cards {
+		display: none;
+	}
+	.box-chart.feedChart {
+		display: flex;
+	}
+}

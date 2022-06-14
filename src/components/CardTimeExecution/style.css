@@ -1,0 +1,59 @@
+/*Import fontes*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/*Div pai dos elementos*/
+.container-execution {
+	width: 100%;
+	height: 100%;
+	padding: 1rem;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 2.4rem;
+}
+
+/*Style titulo do card*/
+.content-execution {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 20px;
+	letter-spacing: 0.25px;
+
+	color: #000000;
+}
+
+/*Style do "contador"*/
+
+/*Style do número*/
+.number-execution {
+	display: inline-block;
+	line-height: 36px;
+}
+
+/*Style dos "h"*/
+.h1-execution {
+	/*Número*/
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 60px;
+	line-height: 36px;
+
+	color: #000000;
+}
+.h2-execution {
+	/*"seg"*/
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+}
+.h3-execution {
+	/*Titulo principal*/
+	line-height: 20px;
+	font-weight: 700;
+	font-size: 1.4em;
+}

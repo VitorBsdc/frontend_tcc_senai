@@ -1,0 +1,49 @@
+.box-alarme {
+	padding: 1rem;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.space-alarme-check {
+	min-width: 100%;
+	margin: 0 0 1rem;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.space-alarme-check span.title-alarme {
+	font-weight: 700;
+	font-size: 1.4em;
+}
+
+.space-alarme-check .box-switch-alarme {
+	width: 70px;
+	height: 30px;
+}
+
+.box-alarmeIcon-time {
+	width: 200px;
+
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	gap: 1rem;
+}
+
+.box-alarmeIcon-time img {
+	width: 55%;
+}
+
+.box-alarmeIcon-time span.time-alarme {
+	font-weight: 600;
+	font-size: 1.3em;
+}

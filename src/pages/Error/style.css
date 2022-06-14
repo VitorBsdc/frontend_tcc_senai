@@ -1,0 +1,135 @@
+header.logo-error {
+  height: 80px;
+  width: 100%;
+}
+
+main.page-error {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  background-color: var(--bg-main);
+}
+
+article.content-error {
+  width: 80%;
+  height: min-content;
+  padding: 12px 0;
+
+  z-index: 1;
+
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+article.content-error .text-error {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+article.content-error .text-error .error {
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  color: var(--red);
+}
+
+article.content-error .text-error .error.code {
+  font-size: 9em;
+}
+
+article.content-error .text-error h3.error.text-err {
+  text-align: start;
+  font-size: 4em;
+}
+
+article.content-error .text-error p.text-description-error {
+  font-size: 1.8em;
+  font-weight: 700;
+  color: var(--black);
+}
+
+article.content-error .text-error p.link-to-main {
+  margin-top: 10px;
+}
+
+article.content-error .text-error p.link-to-main a {
+  text-decoration: underline;
+  color: var(--primary);
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+article.content-error .text-error p.link-to-main a:hover {
+  text-decoration: none;
+  color: var(--red);
+}
+
+@media screen and (max-width: 1200px) {
+  article.content-error {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 997px) {
+  article.content-error .text-error p.text-description-error {
+    font-size: 1.6em;
+  }
+
+  article.content-error .text-error .error.code {
+    font-size: 7em;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  article.content-error .text-error .error.text {
+    font-size: 3.5em;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  article.content-error {
+    width: 100%;
+    padding: 0 12px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  article.content-error .text-error {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 338px) {
+  article.content-error img.image-error {
+    width: 100%;
+  }
+}
+
+.custom-shape-divider-bottom-1647989821 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1647989821 svg {
+  position: relative;
+  display: block;
+  width: calc(142% + 1.3px);
+  height: 296px;
+}
+
+.custom-shape-divider-bottom-1647989821 .shape-fill {
+  fill: #d4d4d4;
+}

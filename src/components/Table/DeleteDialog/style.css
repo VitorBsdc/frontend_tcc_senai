@@ -1,0 +1,38 @@
+.containerTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-left: 1.15em;
+}
+
+.text {
+    font-size: 20px;
+    margin-top: 1em;
+    margin-left: 2em;
+    padding: 2px;
+}
+
+#confirmDeleteButton {
+    background-color: var(--red);
+    color:  white;
+    border-radius: 8px;
+    width: 130px;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+#cancelDeleteButton {
+    background-color: #B3B3B3;
+    color:  white;
+    border-radius: 8px;
+    width: 130px;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: capitalize;
+}

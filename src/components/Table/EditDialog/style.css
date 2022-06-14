@@ -1,0 +1,94 @@
+.containerTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.containerForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.containerInputs {
+  display: flex;
+  flex-direction: column;
+  padding: 1.3em;
+}
+
+.areaInput {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.65em;
+}
+
+label {
+  font-weight: 700;
+}
+
+input {
+  width: 350px;
+  height: 3em;
+  padding-left: 10px;
+  border: 0.4px solid #7a7a7a;
+  border-radius: 7px;
+  font-size: 16px;
+}
+
+select {
+  width: 350px;
+  height: 3em;
+  padding-left: 10px;
+  border: 0.4px solid #7a7a7a;
+  border-radius: 7px;
+  font-size: 16px;
+}
+
+#title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-left: 1.15em;
+}
+
+#confirmEditButton {
+  background-color: var(--red);
+  color: white;
+  border-radius: 8px;
+  width: 130px;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+#nome-label.valid {
+  color: var(--green);
+}
+
+#nome-label.invalid {
+  color: var(--red);
+}
+
+#email-label.valid {
+  color: var(--green);
+}
+
+#email-label.invalid {
+  color: var(--red);
+}
+
+#cpf-label.valid {
+  color: var(--green);
+}
+
+#cpf-label.invalid {
+  color: var(--red);
+}
+
+#date-label.valid {
+  color: var(--green);
+}
+
+#date-label.invalid {
+  color: var(--red);
+}

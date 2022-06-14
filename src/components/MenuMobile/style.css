@@ -1,0 +1,18 @@
+h1.pageName-menu-mobile {
+	font-size: 2.3em;
+	font-family: Nunito;
+	font-weight: 800;
+	color: #636363;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h4.userName-menu-mobile {
+	text-align: center;
+	color: var(--black);
+	font-size: 1.3em;
+}
+
+span.typeUser-menu-mobile {
+	font-size: 1.1em;
+}
